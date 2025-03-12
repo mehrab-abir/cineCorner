@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU Movies</title>
+
+    <!-- Bootstrap 5.2 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+    <!-- owl stylesheet -->
+    <link rel="stylesheet" href="owl-slider-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-slider-css/owl.theme.default.min.css">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- javascript for Owl -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jquery google CDN -->
+    <script src="owl-slider-js/owl.carousel.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="menuBar">
+                <div class="logo">
+                    <a href="index.html">Movies</a>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="drop-genre"><a href="#">Genre ></a>
+                            <div class="genre-list">
+                                <!-- dropdown menu -->
+                                <a href="#">Drama</a><br>
+                                <a href="#">Sci-Fi</a><br>
+                                <a href="#">Thriller</a><br>
+                                <a href="#">Action</a><br>
+                                <a href="#">Fantasy</a>
+                            </div>
+                        </li>
+                        <li class="drop-series"><a href="#">Series ></a>
+                            <div class="series-list">
+                                <!-- dropdown menu -->
+                                <a href="#mcu">MCU</a><br>
+                                <a href="#about-x-men">X-Men</a><br>
+                                <a href="#">DC</a><br>
+                                <a href="mi.html">Mission Impossible</a><br>
+                                <a href="#">Pirates Of The Caribbean</a>
+                            </div>
+                        </li>
+                        <li><a href="#tvweb.html">TV/Web Series</a></li>
+                        <li><a href="#">Watched</a></li>
+                    </ul>
+
+                    <div class="menuToggler">
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- side menu -->
+    <div class="sideMenu" id="sideNav">
+        <div class="closeBtn">&times;</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="side-drop-genre"><a href="#">Genre ></a></li>
+            <div class="side-genre-list">
+                <!-- dropdown menu -->
+                <a href="#">Drama</a><br>
+                <a href="#">Sci-Fi</a><br>
+                <a href="#">Thriller</a><br>
+                <a href="#">Action</a><br>
+                <a href="#">Fantasy</a>
+            </div>
+            <li class="side-drop-series"><a href="#">Series ></a></li>
+            <div class="side-series-list">
+                <!-- dropdown menu -->
+                <a href="#mcu">MCU</a><br>
+                <a href="#about-x-men">X-Men</a><br>
+                <a href="#">DC</a><br>
+                <a href="mi.html">Mission Impossible</a><br>
+                <a href="#">Pirates Of The Caribbean</a>
+            </div>
+            <li><a href="#">Watched</a></li>
+            <li><a href="tvweb.html">TV/Web Series</a></li>
+            <li><a href="#">Watched</a></li>
+        </ul>
+    </div>
+    <!-- side menu ends -->
+
+    <!-- about mcu -->
+    <section id="aboutDetails">
+        <div class="container">
+            <h1 class="titleAnim">Marvel Cinematic Universe</h1>
+                <p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. <br>
+                <br>
+                Marvel Studios releases its films in groups called "Phases", with the first three phases collectively known as "The Infinity Saga" and the following three phases as "The Multiverse Saga". The first MCU film, Iron Man (2008), began Phase One, which culminated in the 2012 crossover film The Avengers. Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America: Civil War (2016) and concluded with Spider-Man: Far From Home (2019). Phase Four began with Black Widow (2021) and will conclude with Black Panther: Wakanda Forever (2022). Ant-Man and the Wasp: Quantumania (2023) will begin Phase Five, which will end with Thunderbolts (2024), and Phase Six begins with Fantastic Four (2024). Phase Six and "The Multiverse Saga" will conclude with Avengers: The Kang Dynasty (2025) and Avengers: Secret Wars (2025).</p>
+        </div>
+    </section>
+    <!-- about mcu ends -->
+
+    <!-- phases name tabs start -->
+    <section id="mcuPhases">
+        <div class="container">
+            <h3>All Phases:</h3>
+            <div class="tabs">
+                <div id="tab-1" class="tab-item tab-border">
+                    <a href="#tab-1-content">Phase One</a>
+                </div>
+                <div id="tab-2" class="tab-item">
+                    <a href="#tab-2-content">Phase Two</a>
+                </div>
+                <div id="tab-3" class="tab-item">
+                    <a href="#tab-3-content">Phase Three</a>
+                </div>
+                <div id="tab-4" class="tab-item">
+                    <a href="#tab-4-content">Phase Four</a>
+                </div>
+                <div id="tab-5" class="tab-item">
+                    <a href="#tab-5-content">Phase Five</a>
+                </div>
+                <div id="tab-6" class="tab-item">
+                    <a href="#tab-6-content">Phase Six</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- phases name tabs ends -->
+
+    <!-- phases movie name---starts -->
+    <section id="phaseMovie">
+        <div class="container">
+            <div id="tab-1-content" class="tab-content-item show">
+                <span style="color:lime;">The Infinity Saga:</span>
+                <ul>
+                    <li><a href="https://new7.gdtot.cfd/file/27146337843" target="_blank" onclick="login();">Iron Man (2008)</a></li>
+                    <li><a href="#" onclick="login();">The Incredible Hulk (2008)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/22796304313" target="_blank" onclick="login();">Iron Man 2 (2010)</a></li>
+                    <li><a href="#">Thor (2011)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/1337539888" target="_blank" onclick="login();">Captain America: Ther First Avenger (2011)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/1538255875" target="_blank" onclick="login();">The Avengers (2012)</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-2-content" class="tab-content-item">
+                <span style="color:lime;">The Infinity Saga:</span>
+                <ul>
+                    <li><a href="https://new7.gdtot.cfd/file/1094560672" target="_blank" onclick="login();">Iron Man 3 (2013)</a></li>
+                    <li><a href="#" onclick="login();">Thor: The Dark World (2013) </a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/19038339859" target="_blank" onclick="login();">Captain America: The Winter Soldier (2014)</a></li>
+                    <li><a href="#" onclick="login();">Guardians Of The Galaxy (2014)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/1534386330" target="_blank" onclick="login();">Avengers: Age Of Ultron (2015)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/1261770296" target="_blank" onclick="login();">Ant-Man (2015)</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-3-content" class="tab-content-item">
+                <span style="color:lime;">The Infinity Saga:</span>
+                <ul>
+                    <li><a href="https://new7.gdtot.cfd/file/9555522975" target="_blank" onclick="login();">Captain America: Civil War (2016)</a></li>
+                    <li><a href="#" onclick="login();">Doctor Strange (2016)</a></li>
+                    <li><a href="#" onclick="login();">Guardians Of The Galaxy Vol.2(2017)</a></li>
+                    <li><a href="#" onclick="login();">Spider-Man: Homecoming (2017)</a></li>
+                    <li><a href="#" onclick="login();">Thor: Ragnarok (2017)</a></li>
+                    <li><a href="#" onclick="login();">Black Panther (2018)</a></li>
+                    <li><a href="https://oiya.me/avengers-infinity-war-2018/" target="_blank" onclick="login();">Avengers: Infinity War (2018)</a></li>
+                    <li><a href="https://new7.gdtot.cfd/file/1271644378" target="_blank" onclick="login();">Ant-Man and The Wasp (2018)</a></li>
+                    <li><a href="#" onclick="login();">Captain Marvel (2019)</a></li>
+                    <li><a href="https://oiya.me/avengers-endgame-imax/" target="_blank" onclick="login();">Avengers: Endgame (2019)</a></li>
+                    <li><a href="#" onclick="login();">Spider-Man: Far From Home (2019)</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-4-content" class="tab-content-item">
+                <span style="color:lime;">The Multiverse Saga:</span>
+                <ul>
+                    <li><a href="#" onclick="login();">WandaVision Season 1 (2021)- TV Mini Series</a></li>
+                    <li><a href="#" onclick="login();">The Falcon and The winter Soldier Season 1 (2021)- TV Mini Series</a></li>
+                    <li><a href="#" onclick="login();">Loki Season 1 (2021)- TV Series</a></li>
+                    <li><a href="#" onclick="login();">Black Widow (2021)</a></li>
+                    <li><a href="#" onclick="login();">What If...? Season 1 (2021)- Animated Series</a></li>
+                    <li><a href="#" onclick="login();">Shang-Chi and The Legend of The Ten Rings (2021)</a></li>
+                    <li><a href="#" onclick="login();">Eternals (2021)</a></li>
+                    <li><a href="#" onclick="login();">Hawkeye Season 1 (2021)- TV Mini Series</a></li>
+                    <li><a href="#" onclick="login();">Spider-Man: No Way Home (2021)</a></li>
+                    <li><a href="#" onclick="login();">Moon Knight Season 1(2022)- TV Mini Series</a></li>
+                    <li><a href="#" onclick="login();">Doctor Strange: In The Multiverse of Madness (2022)</a></li>
+                    <li><a href="#" onclick="login();">Ms. Marvel Season 1 (2022)- TV Mini Series</a></li>
+                    <li><a href="#" onclick="login();">Thor: Love and Thunder (2022)</a></li>
+                    <li><a href="#" onclick="login();">I am Groot Season 1 (2022)- Animated Series of Shorts</a></li>
+                    <li><a href="#" onclick="login();">She-Hulk Season 1 (2022)- Tv Mini Series</a></li>
+                    <li><a href="#" onclick="login();">Black Panther: Wakanda Forever (2022)</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-5-content" class="tab-content-item">
+                <span style="color:lime;">The Multiverse Saga:</span>
+                <h4>Upcoming:</h4>
+                <ul>
+                    <li><a href="https://oiya.me/ant-man-and-the-wasp-quantumania-2023-dual/" target="_blank">Ant-Man and The Wasp: Quantumania (2023)</a></li>
+                    <li><a href="#">Guardians Of The Galaxy Vol.3 (2023)</a></li>
+                    <li><a href="#">Secret Invasion Season 1 (2023)- TV Mini Series</a></li>
+                    <li><a href="#">Loki Season 2 (2023)- TV series</a></li>
+                    <li><a href="#">The Marvels (2023)</a></li>
+                    <li><a href="#">What if...? Season 2 (2023)- Animated Series</a></li>
+                    <li><a href="#">Echo Season 1 (2024)- TV Mini Series</a></li>
+                    <li><a href="#">Deadpool 3 (2024)</a></li>
+                    <li><a href="#">Agatha: Coven of Chaos Season 1 (2024)- TV Mini Series</a></li>
+                    <li><a href="#">Blade (2025)</a></li>
+                    <li><a href="#">Iron Heart Season 1 (2025)- TV Mini Series</a></li>
+                    <li><a href="#">Daredevil: Born Again (2025)- TV Series</a></li>
+                    <li><a href="#">Captain America: New World Order (2025)</a></li>
+                    <li><a href="#">Thunderbolts (2025)</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-6-content" class="tab-content-item">
+                <span style="color:lime;">The Multiverse Saga:</span>
+                <h4>Upcoming:</h4>
+                <ul>
+                    <li><a href="#">Fantastic Four (2025)</a></li>
+                    <li><a href="#">Avengers: The Kang Dynasty (2026)</a></li>
+                    <li><a href="#">Avengers: Secret Wars (2027)</a></li>
+                </ul>
+                <span>There are many more upcoming movies and TV series but they are yet to be announced. <br> <br></span>
+            </div>
+
+        </div>
+    </section>
+    <!-- phases movie name---ends -->
+
+    <!-- all movies in release order -->
+    <section id="mcuAllMovies">
+        <div class="container">
+            <p>All MCU movies and series in release order: <span class="drop-mcu-list">Click Here</span></p>
+            <div class="mcuList">
+                <h5 id="spidys">Watch these movies first or before watching "Spider-Man: No way Home(2021)" if you have not watched them yet:</h5>
+                <ul>
+                    <li><a href="#">Spider-Man (2002)</a></li>
+                    <li><a href="#">Spider-Man 2 (2004)</a></li>
+                    <li><a href="#">Spider-Man 3 (2007)</a></li>
+                    <li><a href="#">The Amazing Spider-Man (2012)</a></li>
+                    <li><a href="#">The Amazing Spider-Man 2 (2014)</a></li>
+                    <li><a href="#">Spider-Man: Into the Spider-verse (2018)</a></li>
+                </ul>
+                <h5>Then, Start watching:</h5>
+                <ul>
+                    <li><a href="#">Iron Man (2008)</a></li>
+                    <li><a href="#">The Incredible Hulk (2008)</a></li>
+                    <li><a href="#">Iron Man 2 (2010)</a></li>
+                    <li><a href="#">Thor (2011)</a></li>
+                    <li><a href="#">Captain America: Ther First Avenger (2011)</a></li>
+                    <li><a href="#">The Avengers (2012)</a></li>
+                    <li><a href="#">Iron Man 3 (2013)</a></li>
+                    <li><a href="#">Thor: The Dark World (2013) </a></li>
+                    <li><a href="#">Captain America: The Winter Soldier (2014)</a></li>
+                    <li><a href="#">Guardians Of The Galaxy (2014)</a></li>
+                    <li><a href="#">Avengers: Age Of Ultron (2015)</a></li>
+                    <li><a href="#">Ant-Man (2015)</a></li>
+                    <li><a href="#">Captain America: Civil War (2016)</a></li>
+                    <li><a href="#">Doctor Strange (2016)</a></li>
+                    <li><a href="#">Guardians Of The Galaxy Vol.2(2017)</a></li>
+                    <li><a href="#">Spider-Man: Homecoming (2017)</a></li>
+                    <li><a href="#">Thor: Ragnarok (2017)</a></li>
+                    <li><a href="#">Black Panther (2018)</a></li>
+                    <li><a href="#">Avengers: Infinity War (2018)</a></li>
+                    <li><a href="#">Ant-Man and The Wasp (2018)</a></li>
+                    <li><a href="#">Captain Marvel (2019)</a></li>
+                    <li><a href="#">Avengers: Endgame (2019)</a></li>
+                    <li><a href="#">Spider-Man: Far From Home (2019)</a></li>
+                    <li><a href="#">WandaVision Season 1 (2021)- TV Mini Series</a></li>
+                    <li><a href="#">The Falcon and The winter Soldier Season 1(2021)- TV Mini Series</a></li>
+                    <li><a href="#">Loki Season 1 (2021)- TV Series</a></li>
+                    <li><a href="#">Black Widow (2021)</a></li>
+                    <li><a href="#">What If...? Season 1 (2021)- Animated Series</a></li>
+                    <li><a href="#">Shang-Chi and The Legend of The Ten Rings (2021)</a></li>
+                    <li><a href="#">Eternals (2021)</a></li>
+                    <li><a href="#">Hawkeye Season 1 (2021)- TV Mini Series</a></li>
+                    <li><a href="#">Spider-Man: No Way Home (2021) - <span style="color:white">watch previous Spider-Man films before watching this.</span> <a href="#spidys"  class="note">Go there</a></a></li>
+                    <li><a href="#">Moon Knight Season 1 (2022)- TV Mini Series</a></li>
+                    <li><a href="#">Doctor Strange: In The Multiverse of Madness (2022)</a></li>
+                    <li><a href="#">Ms. Marvel Season 1 (2022)- TV Mini Series</a></li>
+                    <li><a href="#">Thor: Love and Thunder (2022)</a></li>
+                    <li><a href="#">I am Groot Season 1 (2022)- Animated Series of Shorts</a></li>
+                    <li><a href="#">She-Hulk Season 1 (2022)- Tv Mini Series</a></li>
+                    <li><a href="#">Black Panther: Wakanda Forever (2022)</a></li>
+                    <li><a href="#">Ant-Man and The Wasp: Quantumania (2023)</a></li>
+                    <li><a href="#">Guardians Of The Galaxy Vol.3 (2023)</a></li>
+                    <li><a href="#">Secret Invasion Season 1 (2023)- TV Mini Series</a></li>
+                    <li><a href="#">Loki Season 2 (2023)- TV series</a></li>
+                    <li><a href="#">The Marvels (2023)</a></li>
+                    <li><a href="#">What if...? Season 2 (2023)- Animated Series</a></li>
+                    <li><a href="#">Echo Season 1 (2024)- TV Mini Series</a></li>
+                    <li><a href="#">Deadpool 3 (2024)</a></li>
+                    <li><a href="#">Agatha: Coven of Chaos Season 1 (2024)- TV Mini Series</a></li>
+                    <li><a href="#">Blade (2025)- <span style="color:white">I suggest you to watch marvel's <a href="https://en.wikipedia.org/wiki/Blade_(franchise)" target="_blank" class="note">"Blade Trilogy"</a> before watching this.</span></a></li>
+                    <li><a href="#">Iron Heart Season 1 (2025)- TV Mini Series</a></li>
+                    <li><a href="#">Daredevil: Born Again (2025)- TV Series - <span style="color:white;">Before watching this, watch <a href="https://en.wikipedia.org/wiki/Daredevil_(TV_series)" target="_blank" class="note">"Daredevil" season(1-3)</a> which was released on Netflix, you will like it.</span></a></li>
+                    <li><a href="#">Captain America: New World Order (2025)</a></li>
+                    <li><a href="#">Thunderbolts (2025)</a></li>
+                    <li><a href="#">Fantastic Four (2025)- <span style="color:white;">There is a <a href="https://en.wikipedia.org/wiki/Fantastic_Four_in_film" target="_blank" class="note">"Fantastic Four"</a> trilogy (2005,2007,2015), you may watch them</span></a></li>
+                    <li><a href="#">Avengers: The Kang Dynasty (2026)</a></li>
+                    <li><a href="#">Avengers: Secret Wars (2027)</a></li>
+                </ul>
+                <span style="color: #ff4d4d;">And upcoming...</span>
+            </div>
+            <span><a href="index.html">Go back</a></span>
+        </div>
+    </section>
+
+    <!-- Footer starts -->
+    <footer id="footer">
+        <div class="container">
+            <span>&copy;Mehrab Jalil Abir-2022</span>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mehrababir.0" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/mehrab.abir_" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com/mehrab_abir_" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.github.com/mehrab-abir" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mehrababir" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap 5.2 js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="script.js"></script>
+</body>
+
+</html>

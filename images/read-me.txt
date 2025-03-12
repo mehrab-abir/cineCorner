@@ -1,0 +1,9 @@
+movie poster size ratio >> 1:1.47 or 1:1.48
+divide height by width
+
+large slider image ratio >>1:1.78
+
+make a new js file for small img slider > cpy js code from another slider's same js file
+change varibale name, add a new class to '.owl-carousel' and write it inside the breaket of new js file,
+
+put the link of new js fiile at the bottom of html file before closing body tag

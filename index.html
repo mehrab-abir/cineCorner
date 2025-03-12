@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviesite</title>
+
+    <!-- Bootstrap 5.2 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+    <!-- owl stylesheet -->
+    <link rel="stylesheet" href="owl-slider-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-slider-css/owl.theme.default.min.css">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- javascript for Owl -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jquery google CDN -->
+    <script src="owl-slider-js/owl.carousel.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="menuBar">
+                <div class="logo">
+                    <a href="#">Movies</a>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li class="drop-genre"><a href="#">Genre ></a>
+                            <div class="genre-list">
+                                <!-- dropdown menu -->
+                                <a href="#">Drama</a><br>
+                                <a href="#">Sci-Fi</a><br>
+                                <a href="#">Thriller</a><br>
+                                <a href="#">Action</a><br>
+                                <a href="#">Fantasy</a>
+                            </div>
+                        </li>
+                        <li class="drop-series"><a href="#">Series ></a>
+                            <div class="series-list">
+                                <!-- dropdown menu -->
+                                <a href="#mcu">MCU</a><br>
+                                <a href="#about-x-men">X-Men</a><br>
+                                <a href="#">DC</a><br>
+                                <a href="#aboutMi">Mission Impossible</a><br>
+                                <a href="#">Pirates Of The Caribbean</a>
+                            </div>
+                        </li>
+                        <li><a href="#tv-web-series-slider">TV/Web Series</a></li>
+                        <li><a href="#">Watched</a></li>
+                    </ul>
+
+                    <div class="menuToggler">
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- side menu -->
+    <div class="sideMenu" id="sideNav">
+        <div class="closeBtn">&times;</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="side-drop-genre"><a href="#">Genre ></a></li>
+            <div class="side-genre-list">
+                <!-- dropdown menu -->
+                <a href="#">Drama</a><br>
+                <a href="#">Sci-Fi</a><br>
+                <a href="#">Thriller</a><br>
+                <a href="#">Action</a><br>
+                <a href="#">Fantasy</a>
+            </div>
+            <li class="side-drop-series"><a href="#">Series ></a></li>
+            <div class="side-series-list">
+                <!-- dropdown menu -->
+                <a href="#mcu">MCU</a><br>
+                <a href="#about-x-men">X-Men</a><br>
+                <a href="#">DC</a><br>
+                <a href="#aboutMi">Mission Impossible</a><br>
+                <a href="#">Pirates Of The Caribbean</a>
+            </div>
+            <li><a href="#tv-web-series">TV/Web Series</a></li>
+            <li><a href="#">Watched</a></li>
+        </ul>
+    </div>
+
+    <!-- large img slider starts -->
+    <section id="demos">
+        <div class="owl-carousel owl-theme">
+            <div class="item largeSlide">
+                <img src="images/img3.webp" alt="">
+                <div class="container">
+                    <div class="slide-text">
+                        <h2>Mission Impossible</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi commodi ratione, quis quia
+                            quidem dolorum quaerat enim</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item largeSlide">
+                <img src="images/img1.jpg" alt="">
+                <div class="container">
+                    <div class="slide-text">
+                        <h2>Marvel Cinematic Universe</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veniam maiores! Mollitia,
+                            sint dignissimos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item largeSlide">
+                <img src="images/img2.jpg" alt="">
+                <div class="container">
+                    <div class="slide-text">
+                        <h2>The Dark Knight</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus velit facere doloreobcaecati amet quia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item largeSlide">
+                <img src="images/img4.jpg" alt="">
+                <div class="container">
+                    <div class="slide-text">
+                        <h2>X-Men</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et mollitia exercitationem
+                            consectetur maiores</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- large img slider ends -->
+
+    <!-- About section -->
+    <section id="about">
+        <div class="container">
+            <h2>Movies/Films</h2>
+                <p>Watching movie is a great medium of entertainment. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Non voluptatum qui libero accusantium possimus enim recusandae perferendis
+                    perspiciatis architecto, doloremque dolorum maxime quis amet aliquam rem quasi quisquam voluptate
+                    eveniet quia deleniti laudantium rerum? Nobis dolores magni, ad deleniti, id pariatur nemo eligendi
+                    animi voluptates facilis error beatae dolore quas!</p>
+        </div>
+    </section>
+
+    <!-- intro/summary - marvel cinematic universe -->
+    <section id="mcu">
+        <div class="container">
+            <a href="mcu.html">
+                <h2 class="titleAnim">Marvel Cinematic Universe</h2>
+            </a>
+            <p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a
+                series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters <span style="font-style: italic;color:aqua;">-Wikipidia</span> </p>
+        </div>
+    </section>
+    <!-- intro/summary - marvel cinematic universe..ends -->
+
+
+    <!-- MCU movies small image slider -->
+    <section id="mcu-sm-slider" class="slider-pad-top-bottom">
+        <div class="container">
+            <h3>MCU Movies</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/iron-man-1-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Iron Man (2008)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/the-incredible-hulk-poster.jpg" alt="">
+                            <figcaption>
+                                <span>The Incredible Hulk (2008)</span>
+                            </figcaption>
+                        </figure>
+                        
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/iron-man-2-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Iron Man 2 (2010)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/thor-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Thor (2011)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/captain-america-first-avenger-poster.jpeg" alt="">
+                            <figcaption>
+                                <span>Captain America: The First Avenger (2011)</span>
+                            </figcaption>
+                        </figure>   
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/avengers-poster.jpg" alt="">
+                            <figcaption>
+                                <span>The Avengers (2012)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/iron-man-3-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Iron Man 3 (2013)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                        <img src="images/mcu-movie-poster/thor-the-dark-world-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Thor: The Dark World (2013)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/captain-america-winter-soldier-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Captain America: The Winter Soldier (2014)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/guardians-1-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Guardians Of The Galaxy (2014)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/avengers-age-of-ultron-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Avengers: Age of Ultron (2015)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/ant-man-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Ant-Man (2015)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/captain-america-civil-war-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Captain America: Civil War (2016)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/doctor-strange-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Doctor Strange (2016)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/guardians-2-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Guardians Of The Galaxy Vol.2 (2017)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/spider-man-homecoming-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Spider-Man: Homecoming (2017)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/thor-ragnarok-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Thor: Ragnarok (2017)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/black-panther-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Black Panther (2018)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/avengers-infinity-war-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Avengers: Infinity War (2018)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/ant-man-wasp-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Ant-Man and The Wasp (2018)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/captain-marvel-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Captain Marvel (2019)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/avengers-endgame-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Avengers: Endgame (2019)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/spider-man-far-from-home-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Spider-Man: Far From Home (2019)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/black-widow-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Black Widow (2021)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/shang-chi-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Shang-Chi and The Legend of The Ten Rings (2021)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/eternals-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Eternals (2021)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/spider-man-no-way-home-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Spider-Man: No Way Home (2021)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/doctor-strange-2-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Doctor Strange: In The Multiverse of Madness (2022)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-movie-poster/thor-love-thunder-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Thor: Love and Thunder (2022)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <span><a href="mcu.html" class="detailes">Detailes &rightarrow;</a></span>
+        </div>
+    </section>
+
+    <!-- mcu tv mini series small image slider -->
+    <section id="mcu-series-slider">
+        <div class="container">
+            <h3>MCU Disney+ Series</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/wandavision-poster.jpg" alt="">
+                            <figcaption>
+                                <span>WandaVision- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/the-falcon-and-the-winter-soldier-poster.jpg" alt="">
+                            <figcaption>
+                                <span>The Falcon and The Winter Soldier- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/loki-poster.webp" alt="">
+                            <figcaption>
+                                <span>Loki- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/what-if-poster.webp" alt="">
+                            <figcaption>
+                                <span>What If...?- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/hawkeye-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Hawkeye- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/moon-knight-poster.webp" alt="">
+                            <figcaption>
+                                <span>Moon Knight- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/ms-marvel-poster.webp" alt="">
+                            <figcaption>
+                                <span>Ms. Marvel- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mcu-series-poster/i-am-groot-poster.jpg" alt="">
+                            <figcaption>
+                                <span>I am Groot- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <span><a href="mcu.html" class="detailes">Detailes &rightarrow;</a></span>
+        </div>
+    </section>
+
+    <!-- intro/summary - x-men-->
+    <section id="about-x-men" class="pad-top">
+        <div class="container">
+            <a href="#">
+                <h2 class="titleAnim">X-Men Series</h2>
+            </a>
+            <p>X-Men is an American superhero film series based on the Marvel Comics superhero team of the same
+                name. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, ex obcaecati. Veritatis praesentium voluptatibus sequi, repellat exercitationem officiis quo accusamus architecto dolor voluptates accusantium inventore molestias impedit, itaque repudiandae modi illum qui? Dolores excepturi consequatur commodi, iure alias modi corrupti numquam quibusdam dolorum! Laborum eos, excepturi vero culpa minima officia.
+            </p>
+        </div>
+    </section>
+    <!-- intro/summary - x-men...ends-->
+
+    <!-- X-Men small image slider -->
+    <section id="x-men-sm-slider" class="slider-pad-top-bottom">
+        <div class="container">
+            <h3>X-Men Movies</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men (2000)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x2-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X2 (2003)</span>
+                            </figcaption>
+                        </figure>     
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-last-stand-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men: The Last Stand (2006)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-origine-wolverine-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men: Origin- Wolverine (2009)</span>
+                            </figcaption>
+                        </figure>   
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/the-wolverine-poster.webp" alt="">
+                            <figcaption>
+                                <span>The Wolverine (2013)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/logan-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Logan (2017)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-first-class-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men: First Class (2011)</span>
+                            </figcaption>
+                        </figure>   
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-days-of-future-past-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men: Days of Future Past (2014)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/x-men-apocalypse-poster.jpg" alt="">
+                            <figcaption>
+                                <span>X-Men: Apocalypse (2016)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/dark-phoenix-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Dark Phoenix (2019)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/deadpool-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Deadpool (2016)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/deadpool-2-poster.png" alt="">
+                            <figcaption>
+                                <span>Deadpool 2 (2018)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/x-men-poster/the-new-mutants-poster.jpg" alt="">
+                            <figcaption>
+                                <span>The New Mutants (2020)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <span><a href="x-men.html" class="detailes">Detailes &rightarrow;</a></span>
+        </div>
+    </section>
+
+    <!-- intro/summary - Mission Impossible-->
+    <section id="aboutMi" class="pad-top">
+        <div class="container">
+            <a href="mi.html">
+                <h2 class="titleAnim">Mission Impossible</h2>
+            </a>
+            <p>Mission: Impossible is a series of American action spy films based on and a follow-on from the television series of the same name created by Bruce Geller. The series is mainly produced by and stars Tom Cruise, whose character is Ethan Hunt, an agent of the Impossible Missions Force (IMF). The films have been directed, written, and scored from various filmmakers and crew, while incorporating musical themes from the original series by Lalo Schifrin.
+            </p>
+        </div>
+    </section>
+    <!-- intro/summary - Mission Impossible...ends-->
+
+    <!-- mission impossible slider -->
+    <section id="mi-sm-slider" class="slider-pad-top-bottom">
+        <div class="container">
+            <h3>Mission Impossible Movies</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-1.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible (1996)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-2.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible 2 (2000)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-3.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible 3 (2006)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-4.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible: Ghost Protocol (2011)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-5.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible: Rogue Nation (2015)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/mission-impossible/mi-6.jpg" alt="">
+                            <figcaption>
+                                <span>Mission Impossible: Fallout(1996)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <a href="mi.html" class="detailes">Details &rightarrow;</a>
+        </div>
+    </section>
+
+    <!-- tv web series slider -->
+    <section id="tv-web-series-slider" class="slider-pad-top-bottom">
+        <div class="container">
+            <h3>TV/Web Series</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/got-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Game of Thrones- Season (1-8)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/bb-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Breaking Bad- Season (1-6)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/daredevil-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Daredevil- Season (1-3)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/dark-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Dark- Season (1-3)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/squid-game-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Squid Game- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/vikings-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Vikings- Season (1-6)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/stranger-things-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Stranger Things- Season (1-4)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/the-witcher-poster.jpg" alt="">
+                            <figcaption>
+                                <span>The Witcher- Season (1-2)</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <a href="tvweb.html" class="detailes">Details &rightarrow;</a>
+        </div>
+    </section>
+    <!-- tv web series slider ends -->
+
+    <section id="tv-web-series-slider" class="slider-pad-top-bottom">
+        <div class="container">
+            <h3>Popular Bnegali Web Series</h3>
+            <div id="demos">
+                <div class="owl-carousel owl-theme sm-img-slider">
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/taqdeer-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Taqdeer- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/mohanagar-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Mohanagar</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/karagar-poster.webp" alt="">
+                            <figcaption>
+                                <span>Karagar</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/kaiser-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Kaiser</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="item">
+                        <figure>
+                            <img src="images/tv-web-series-poster/syndicate-poster.jpg" alt="">
+                            <figcaption>
+                                <span>Syndicate- Season 1</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <a href="tvweb.html" class="detailes">Details &rightarrow;</a>
+        </div>
+    </section>
+    <!-- tv web series bangla slider ends -->
+
+    <!-- Footer starts -->
+    <footer id="footer">
+        <div class="container">
+            <span>&copy;Mehrab Jalil Abir-2022</span>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mehrababir.0" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/mehrab.abir_" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com/mehrab_abir_" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.github.com/mehrab-abir" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mehrababir" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap 5.2 js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--sm-img-slider js  -->
+    <script src="owl-slider-js/sm-img-slider.js"></script>
+    
+    <!-- custom js file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
